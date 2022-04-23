@@ -78,7 +78,7 @@ function TimeApp() {
       <br />
 
       <div>
-        {min == 0 ? "00" : min} : {sec == 0 || sec == undefined ? "00" : sec}
+        {min == 0 ? "00" : min} : {sec == 0 ? "00" : sec}
       </div>
     </div>
   );
